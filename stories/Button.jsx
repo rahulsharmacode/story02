@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import './button.css';
 
 /** Primary UI component for user interaction */
-const Button = ({
+export const Button = ({
   primary = false,
   backgroundColor = null,
   size = 'medium',
@@ -25,6 +25,8 @@ const Button = ({
   );
 };
 
+export default Button;
+
 Button.propTypes = {
   /** Is this the principal call to action on the page? */
   primary: PropTypes.bool,
@@ -39,4 +41,3 @@ Button.propTypes = {
 };
 
 
-export default Button;

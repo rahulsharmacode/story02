@@ -1,6 +1,6 @@
 {
   "name": "story02",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/my-ui-library.umd.js", 
   "module": "dist/my-ui-library.es.js",
   "files": ["dist"],
