@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import './button.css';
 
 /** Primary UI component for user interaction */
-export const Button = ({
+const Button = ({
   primary = false,
   backgroundColor = null,
   size = 'medium',
@@ -37,3 +37,6 @@ Button.propTypes = {
   /** Optional click handler */
   onClick: PropTypes.func,
 };
+
+
+export default Button;
