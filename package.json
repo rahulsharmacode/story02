@@ -1,8 +1,15 @@
 {
   "name": "story02",
   "version": "1.0.1",
-  "main": "index.js",
+  "main": "dist/my-ui-library.umd.js", 
+  "module": "dist/my-ui-library.es.js",
   "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/my-ui-library.es.js",
+      "require": "./dist/my-ui-library.umd.js"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
