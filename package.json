@@ -1,13 +1,13 @@
 {
   "name": "story02",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/my-ui-library.umd.js", 
   "module": "dist/my-ui-library.es.js",
   "files": ["dist"],
   "exports": {
     ".": {
-      "import": "./dist/my-ui-library.es.js",
-      "require": "./dist/my-ui-library.umd.js"
+     "import": "./dist/my-ui-library.es.js",
+      "require": "./dist/my-ui-library.cjs.js"
     }
   },
   "scripts": {

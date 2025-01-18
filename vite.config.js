@@ -4,7 +4,7 @@ import path from "path";
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, "./stories/"), // Entry point for the library
+      entry: path.resolve(__dirname, "./stories/index.js"), // Entry point for the library
       name: "MyUILibrary", // Global name for UMD builds
       fileName: (format) => `my-ui-library.${format}.js`,
     },
